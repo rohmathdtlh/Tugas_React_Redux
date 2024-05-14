@@ -1,7 +1,7 @@
 // src/components/UserComponent.jsx
 import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { fetchUser } from "../slices/userSlice"; // Sesuaikan path ini jika userSlice.js berada di src/slices
+import { fetchUser } from "../slices/userSlice"; 
 
 function UserComponent() {
   const userData = useSelector((state) => state.user.data);
