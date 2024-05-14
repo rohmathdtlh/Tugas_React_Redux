@@ -2,7 +2,7 @@ import React from "react";
 import { Provider } from "react-redux";
 import store from "./slices/store";
 import UserComponent from "./components/UserComponent";
-import CounterComponent from "./components/CounterComponent"; // Pastikan path ini benar
+import CounterComponent from "./components/CounterComponent";
 import "./App.css";
 
 function App() {
